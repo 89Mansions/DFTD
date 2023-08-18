@@ -45,7 +45,7 @@ scalar_contain_labels = True
 target_value = 'GHI'
 location = ''
 year = ''
-epochs = 200
+epochs = 100
 if output_length > 1:
     forecasting_model = 'multi_steps'
 else:
@@ -110,7 +110,6 @@ train_losses = []
 val_losses = []
 print("——————————————————————Training Starts——————————————————————")
 for epoch in range(epochs):
-    # 训练
     TCNMain_model.train()
     train_loss_sum = 0
     step = 1
