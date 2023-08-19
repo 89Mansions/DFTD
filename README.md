@@ -5,7 +5,7 @@ Dual-Path Information Fusion and Twin Attention Driven Global Modeling for Solar
 ## Architecture of the proposed framework
 
 
-![img1](fig.png)
+![img1](fig/fig.png)
 
 ## Environment
 
